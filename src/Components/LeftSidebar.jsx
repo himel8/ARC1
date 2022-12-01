@@ -9,7 +9,7 @@ const LeftSidebar = () => {
   return (
     <div className={`w-[10%] custom:w-[20%]`}>
       <div className="h-full relative custom:block hidden">
-        <div className="flex flex-col gap-48 fixed left-[10%] w-[20%] top-[35%] translate-x-[-50%] translate-y-[-50%]">
+        <div className="flex flex-col gap-48 fixed left-[10%] w-[20%] top-[40%] translate-x-[-50%] translate-y-[-50%]">
           <div className="w-full flex justify-center">
             <img src={logo} alt="logo" className="w-[60%]" />
           </div>
