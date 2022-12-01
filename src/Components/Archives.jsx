@@ -23,7 +23,13 @@ const Archives = () => {
           >
             <div className="relative w-full h-full">
               {" "}
-              <img src={archive.img} alt="" className="rounded-lg h-full " />
+              <img
+                src={archive.img}
+                alt=""
+                className={`rounded-lg h-full ${
+                  index === 2 ? "object-cover" : ""
+                }`}
+              />
             </div>
             <p
               className={`absolute font-primary text-2xl  rotate-90 left-6 translate-x-[-50%] w-full ${

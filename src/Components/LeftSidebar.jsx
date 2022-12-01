@@ -11,7 +11,9 @@ const LeftSidebar = () => {
       <div className="h-full relative custom:block hidden">
         <div className="flex flex-col gap-48 fixed left-[10%] w-[20%] top-[40%] translate-x-[-50%] translate-y-[-50%]">
           <div className="w-full flex justify-center">
-            <img src={logo} alt="logo" className="w-[60%]" />
+            <Link to="/">
+              <img src={logo} alt="logo" className="w-[60%] mx-auto" />
+            </Link>
           </div>
           <div className="flex justify-center flex-col font-primary text-4xl font-bold gap-5">
             <Link to="/">ARC1</Link>
@@ -44,7 +46,9 @@ const LeftSidebar = () => {
             </div>
             <div className="flex flex-col gap-24 sm:gap-4 ">
               <div className="w-full flex justify-center">
-                <img src={logo} alt="logo" className="w-[40%] sm:w-[30%]" />
+                <Link to="/">
+                  <img src={logo} alt="logo" className="w-[60%] mx-auto" />
+                </Link>
               </div>
               <div className="flex justify-center flex-col font-primary text-4xl font-bold gap-5">
                 <Link to="/">ARC1</Link>

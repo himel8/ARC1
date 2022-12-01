@@ -33,7 +33,7 @@
 }
 
 @media screen and (max-width: 520px) {
-  .banner {
-    height: 100vh;
+  .banner img {
+    object-fit: fill;
   }
 }
