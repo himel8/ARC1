@@ -7,7 +7,7 @@ import Home from "./Pages/Home";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App flex custom:flex-row flex-col">
+      <div className="App flex custom:flex-row flex-col relative overflow-hidden">
         <LeftSidebar />
 
         <div className="w-full custom:w-[60%]">
